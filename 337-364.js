@@ -1,4 +1,4 @@
-/////////////339
+/////////////339.1
 
 let elem1 = document.querySelector('#elem1');
 let elem2 = document.querySelector('#elem2');
@@ -105,17 +105,17 @@ button.addEventListener('mouseover', function() {
 
 let button = document.querySelector('#button');
 button.addEventListener('mouseout', function() {
-	console.log('kitty');
+	console.log('hi');
 });
 
 ////////////////345.4
 
 let button = document.querySelector('#button');
 button.addEventListener('mouseover', function() {
-	console.log('kitty');
+	console.log('hi');
 });
 button.addEventListener('mouseout', function() {
-	console.log('dog');
+	console.log('bye');
 });
 
 /////////////346.1
@@ -324,7 +324,7 @@ button.addEventListener('click', function() {
 let button = document.querySelector('#button');
 let elem = document.querySelector('#elem');
 button.addEventListener('click', function() {
-    elem.className = 'kfdjirkjbfgkljfgjlkj';
+    elem.className = 'hello';
     document.write(elem.className);
 })
 
